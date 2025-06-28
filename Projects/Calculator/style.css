@@ -1,0 +1,36 @@
+#calculator {
+  border: 2px solid grey;
+  border-radius: 20px;
+  width: 400px;
+  margin: 30px;
+}
+
+
+
+.calDisplay input {
+  padding-right: 5px;
+  margin-left: 23px;
+  margin-top: 20px;
+  padding-bottom: 15px;
+  font-size: 30px;
+  border-radius: 15px;
+  margin-top: 30px;
+
+}
+
+.calKeys ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.calKeys button {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 35px;
+  margin-right: 25px;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 25px;
+}
