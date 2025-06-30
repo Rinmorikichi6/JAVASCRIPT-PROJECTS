@@ -8,11 +8,9 @@
   </head>
 
   <body>
-    <div>
-      <h1>Bat Ball Stump Game</h1>
-      <div class="cricbtn">
-        <button
-          onclick="
+    <h1>Bat Ball Stump Game</h1>
+    <button
+      onclick="
 
           let RandomNumber= Math.random() * 3;
           let computerChoice;
@@ -34,77 +32,75 @@
             resultMsg = 'Computer Have Won';
           }
           alert(`You Have Chosen Bat. Computer choice is ${computerChoice}. ${resultMsg}`)"
-        >
-          Bat
-        </button>
+    >
+      Bat
+    </button>
 
-        <button
-          onclick="
-           RandomNumber= Math.random() * 3;
-           computerChoice;
+    <button
+      onclick="
+          let RandomNumber2= Math.random() * 3;
+         let  computerChoice2;
 
-          if (RandomNumber>0 && RandomNumber <= 1) {
-          computerChoice = 'Bat';
-          } else if (RandomNumber>1 && RandomNumber<= 2) {
-          computerChoice = 'Ball'
+          if (RandomNumber2>0 && RandomNumber2 <= 1) {
+          computerChoice2 = 'Bat';
+          } else if (RandomNumber2>1 && RandomNumber2<= 2) {
+          computerChoice2 = 'Ball'
         
           }else{
-         computerChoice = 'Stumps';
+         computerChoice2 = 'Stumps';
              
           }
 
-           resultMsg;
-          if (computerChoice === 'Ball') {
-            resultMsg = `It's a Tie`;
-          } else if (computerChoice === 'Bat') {
-            resultMsg = 'Computer Have Won';
-          } else if (computerChoice === 'Stumps') {
-            resultMsg = 'User Won';
+          let resultMsg2;
+          if (computerChoice2 === 'Ball') {
+            resultMsg2 = `It's a Tie`;
+          } else if (computerChoice2 === 'Bat') {
+            resultMsg2= 'Computer Have Won';
+          } else if (computerChoice2 === 'Stumps') {
+            resultMsg2 = 'User Won';
           }
             
 
       
-          alert(`You Have Chosen Ball. Computer choice = ${computerChoice}. ${resultMsg}`)
+          alert(`You Have Chosen Ball. Computer choice = ${computerChoice2}. ${resultMsg2}`)
           
           
           "
-        >
-          Ball
-        </button>
-        <button
-          onclick="
-           RandomNumber= Math.random() * 3;
-           computerChoice;
+    >
+      Ball
+    </button>
+    <button
+      onclick="
+         let  RandomNumber1= Math.random() * 3;
+          let computerChoice1;
 
-          if (RandomNumber>0 && RandomNumber <= 1) {
-          computerChoice = 'Bat';
-          } else if (RandomNumber>1 && RandomNumber<= 2) {
-          computerChoice = 'Ball'
+          if (RandomNumber1>0 && RandomNumber1 <= 1) {
+          computerChoice1 = 'Bat';
+          } else if (RandomNumber1>1 && RandomNumber1<= 2) {
+          computerChoice1 = 'Ball'
         
           }else{
-         computerChoice = 'Stumps';
+         computerChoice1 = 'Stumps';
              
           }
 
-           resultMsg;
-          if (computerChoice === 'Ball') {
-            resultMsg = 'Computer Have Won';
-          } else if (computerChoice === 'Bat') {
-            resultMsg = 'User Won';
-          } else if (computerChoice === 'Stumps') {
-            resultMsg = `It's a Tie`;
+          let resultMsg1;
+          if (computerChoice1 === 'Ball') {
+            resultMsg1 = 'Computer Have Won';
+          } else if (computerChoice1 === 'Bat') {
+            resultMsg1 = 'User Won';
+          } else if (computerChoice1 === 'Stumps') {
+            resultMsg1 = `It's a Tie`;
           }
             
 
       
-          alert(`You Have Chosen Stumps. Computer choice = ${computerChoice}. ${resultMsg}`)
+          alert(`You Have Chosen Stumps. Computer choice = ${computerChoice1}. ${resultMsg1}`)
           
           
           "
-        >
-          Stump
-        </button>
-      </div>
-    </div>
+    >
+      Stump
+    </button>
   </body>
 </html>
